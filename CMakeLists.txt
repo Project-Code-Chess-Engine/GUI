@@ -13,8 +13,14 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
+FetchContent_Declare(core
+    GIT_REPOSITORY https://github.com/Project-Code-Chess-Engine/core.git
+)
+FetchContent_MakeAvailable(core)
+
 add_executable(main src/main.cpp)
 target_link_libraries(main PRIVATE sfml-graphics)
+target_link_libraries(main PRIVATE core)
 target_compile_features(main PRIVATE cxx_std_17)
 
 if(WIN32)
