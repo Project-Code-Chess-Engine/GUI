@@ -18,6 +18,10 @@ FetchContent_Declare(core
 )
 FetchContent_MakeAvailable(core)
 
+file(COPY assets DESTINATION ${CMAKE_BINARY_DIR})
+
+include_directories(include)
+
 add_executable(main src/main.cpp)
 target_link_libraries(main PRIVATE sfml-graphics)
 target_link_libraries(main PRIVATE core)
