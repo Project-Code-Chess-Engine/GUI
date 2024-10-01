@@ -8,5 +8,5 @@ private:
     std::unique_ptr<Display> display;
 public:
     App();
-    void update();
+    void run();
 };
