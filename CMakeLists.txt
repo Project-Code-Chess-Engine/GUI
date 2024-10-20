@@ -18,16 +18,28 @@ FetchContent_Declare(core
 )
 FetchContent_MakeAvailable(core)
 
+# Copy assets to the binary directory
 file(COPY assets DESTINATION ${CMAKE_BINARY_DIR})
 
+# Include directories for your project
 include_directories(include)
 
-file(GLOB_RECURSE SOURCES "src/*.cpp")
+# Gather source files
+file(GLOB_RECURSE SOURCES "src/main.cpp")
+
+# Create the executable
 add_executable(main ${SOURCES})
-target_link_libraries(main PRIVATE sfml-graphics)
+
+# Link against SFML libraries
+target_link_libraries(main PRIVATE sfml-graphics sfml-audio) # Added sfml-audio
+
+# Link against the core library
 target_link_libraries(main PRIVATE core)
+
+# Set C++ standard
 target_compile_features(main PRIVATE cxx_std_17)
 
+# Handle OpenAL DLL copying on Windows
 if(WIN32)
     add_custom_command(
         TARGET main
