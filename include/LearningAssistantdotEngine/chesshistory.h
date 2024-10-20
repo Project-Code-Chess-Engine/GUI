@@ -1,0 +1,1 @@
+//Chess news to be found at chess basecma
