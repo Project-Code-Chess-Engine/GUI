@@ -1,0 +1,133 @@
+chess_facts:
+  - name: Ajeeb
+    years: 
+      - 1865
+      - 1929
+    description: "A life-size chess automaton built by Charles Hopper, Ajeeb was operated by several masters and played numerous famous opponents. It was destroyed by fire at Coney Island in 1929."
+    obscurity_rating: 7
+
+  - name: Akhmilovskaya-Donaldson, Elena
+    years: 
+      - 1957
+      - null
+    description: "Russian Woman Grandmaster who challenged for the World Women’s Championship in 1986 and eloped with American John Donaldson in 1988."
+    obscurity_rating: 5
+
+  - name: Akhsharumova-Gulko, Anna
+    years: 
+      - 1958
+      - null
+    description: "Soviet Women's Champion who controversially lost the 1983 title due to a clock protest but regained the title in 1984."
+    obscurity_rating: 6
+
+  - name: Akins, Claude
+    years: 
+      - 1926
+      - 1993
+    description: "Actor and chess enthusiast known for teaching Dean Martin the game and always defeating John Wayne."
+    obscurity_rating: 8
+
+  - name: Akopian, Vladimir
+    years: 
+      - 1971
+      - null
+    description: "World Under-16 Champion in 1986 and World Junior Champion in 1991, currently among the top 15 players globally."
+    obscurity_rating: 4
+
+  - name: al-Adli
+    years: 
+      - 800
+      - 860
+    description: "Father of opening analysis, credited with early chess notation and player rating systems."
+    obscurity_rating: 9
+
+  - name: Alburt, Lev
+    years: 
+      - 1945
+      - null
+    description: "Russian Grandmaster who defected in 1979, winning multiple U.S. Championships and holding a doctorate in physics."
+    obscurity_rating: 5
+
+  - name: Alekhine, Alexander
+    years: 
+      - 1892
+      - 1946
+    description: "First Soviet Champion and only world champion to die while holding the title, known for his complex life and controversial wartime affiliations."
+    obscurity_rating: 3
+
+  - name: Alekhine-Capablanca Match 1927
+    years: 
+      - 1927
+      - 1927
+    description: "A historic match held behind closed doors in Buenos Aires, where Alekhine defeated Capablanca after previously never winning against him."
+    obscurity_rating: 6
+
+  - name: Alexander, Conel Hugh O'Donel
+    years: 
+      - 1909
+      - 1974
+    description: "British chess champion who played a significant role in wartime cryptography, receiving an OBE for his efforts."
+    obscurity_rating: 7
+
+  - name: Alexandre, Aaron
+    years: 
+      - 1766
+      - 1850
+    description: "Author of the first compilation of chess openings and an innovator of algebraic notation in chess."
+    obscurity_rating: 6
+
+  - name: Alfonsi, Petro
+    years: 
+      - null
+      - null
+    description: "Physician to King Henry I, noted for including chess among the knightly accomplishments in his writings."
+    obscurity_rating: 8
+
+  - name: Alfonso Manuscript
+    years: 
+      - 1221
+      - 1284
+    description: "A manuscript commissioned by King Alfonso the Wise, the first to mention the pawn’s double move."
+    obscurity_rating: 9
+
+  - name: Algebraic notation
+    years: 
+      - 1173
+      - null
+    description: "The earliest use of algebraic notation in chess, evolving into the standard notation used today."
+    obscurity_rating: 5
+
+  - name: aliyat
+    years: 
+      - 800
+      - 900
+    description: "Title given by caliph al-Ma’mun to the top four chess players of the early ninth century, marking the first unofficial grandmasters."
+    obscurity_rating: 8
+
+  - name: All-Russian Chess Federation
+    years: 
+      - 1914
+      - null
+    description: "The first Russian chess federation, formed with 865 members, marking a significant step in organized chess in Russia."
+    obscurity_rating: 7
+
+  - name: Alladin
+    years: 
+      - 1300
+      - 1400
+    description: "Considered the strongest chess player at the end of the 14th century, known for giving odds to other players."
+    obscurity_rating: 9
+
+  - name: al-Lajlaj (the Stammerer)
+    years: 
+      - 910
+      - null
+    description: "Pioneer of opening analysis in chess, known for his extensive studies in the 10th century."
+    obscurity_rating: 8
+
+  - name: Allen, George
+    years: 
+      - 1808
+      - 1876
+    description: "Musician and chess player who authored 'The Life of Philidor' and revealed secrets about the operation of The Turk."
+    obscurity_rating: 7

@@ -1,4 +1,5 @@
 // DiscordRPC.c
+// DiscordRPC for displayhing chess fun facts on 5 minute time delay
 #include "DiscordRPC.h"
 #include <stdio.h>
 #include <stdlib.h>
